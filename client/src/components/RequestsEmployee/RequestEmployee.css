@@ -1,0 +1,43 @@
+.paragraph>h2{
+    font-size: 2rem;
+}
+.paragraph>h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+.paragraph>p{
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+}
+
+.paragraph>p>strong{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.licenses{
+    margin-left: 1.2rem;  
+}
+
+.paragraph>.licenses>h2{
+    font-size: 2rem;
+}
+.paragraph>.licenses>h3{
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #87adf9;
+}
+.paragraph>.licenses>.license-container>p{
+    text-align: left;
+    font-weight: 500;
+    font-size: 1rem;
+    max-width: 42em;
+}
+
+.paragraph>.licenses>.license-container>p>strong{
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin: 0 0 0 0;;
+}
