@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #ffffff; /* Light background */
+  color: #1949a8; /* Text color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  width: 100%; /* Full width */
+  box-sizing: border-box;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+span{
+  text-align: left;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.logo-container .company-logo {
+  height: 50px;
+}
+
+.nav-options {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  color: #1949a8;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #81a4e9;
+}
+
+.btn *{
+  max-height: 2.6em;
+}
+
+.active-link {
+  font-weight: bold;
+  border-bottom: 2px solid #1949a8;
+  color: #1949a8;
+}

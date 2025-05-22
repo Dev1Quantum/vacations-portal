@@ -1,0 +1,95 @@
+/* General styling for the entire app */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #F8F9FA; /* Cloud white */
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.inside{
+  padding-top: 7rem;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #0e40a4; /* Primary blue color */
+  padding: 20px;
+  color: #F8F9FA; /* Cloud white text */
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+/* Section for login buttons */
+.login-section {
+  margin: 30px 0;
+}
+
+.btn-login-employee,
+.btn-login-leader {
+  background-color: #0e40a4; /* Primary blue color */
+  color: #ffffff;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-login-employee:hover,
+.btn-login-leader:hover {
+  background-color: #020242; /* Darker blue for hover */
+}
+
+/* Navigation buttons section */
+.navigation-buttons {
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  background-color: #0e40a4; /* Primary blue color */
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  margin: 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navigation-buttons button:hover {
+  background-color: #020242; /* Darker blue for hover */
+}
+
+/* Profile and dashboard buttons to stand out with complementary colors */
+.btn-dashboard,
+.btn-profile {
+  background-color: #f9a825; /* Mustard yellow for accent buttons */
+  color: white;
+}
+
+.btn-dashboard:hover,
+.btn-profile:hover {
+  background-color: #c68400; /* Darker shade of mustard */
+}
+
+/* Ensure the app is responsive */
+@media (max-width: 768px) {
+  .btn-login-employee,
+  .btn-login-leader,
+  .navigation-buttons button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}

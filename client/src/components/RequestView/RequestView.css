@@ -1,0 +1,196 @@
+/* Popup container */
+.request-popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Popup content with background */
+.popup-content {
+    background: #2b2a2a;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 30rem;
+    width: 100%;
+    position: relative;
+}
+
+.first,
+.second,
+.third,
+.fourth {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.paddings {
+    padding: 5px;
+}
+
+.padding {
+    padding: 5px 0;
+}
+
+.left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+    width: 50%;
+    /* Occupies half of the width */
+}
+
+/* Right section styles - aligns to the right side of the container */
+.right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: right;
+    width: 50%;
+    /* Occupies half of the width */
+}
+
+/* Font classes */
+.f0 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.f1 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.f2 {
+    font-size: 0.9rem;
+    color: #b6b6b6;
+    font-weight: 400;
+}
+
+.f3 {
+    font-size: 0.85rem;
+    color: #f0f0f0;
+    font-weight: 400;
+}
+
+.f3-italic {
+    font-size: 0.85rem;
+    color: #ffffff;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Close button styles */
+.close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    color: #1560f6;
+}
+
+
+.decision-button {
+    background-color: #0e40a4;
+    color: white;
+    padding: 0.8em 1.2em;
+    font-weight: 600;
+    font-size: 0.9em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.decision-button:hover {
+    background-color: white;
+    color: #0e40a4;
+    border: 0.1em solid #0e40a4;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.separator {
+    width: 95%;
+    height: 1px;
+    background-color: grey;
+    opacity: 0.5;
+    margin: 10px auto;
+}
+
+.rejection-reason{
+    background-color: #2b2a2a;
+    border: 0.1em solid grey;
+}
+
+.confirm-button{
+    background-color: grey;
+    color: #2b2a2a;
+    font-weight: 600;
+    font-size: 0.9em;
+    border-radius: 0.2em;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.confirm-button:hover {
+    background-color: white;
+    color: #2b2a2a;
+    border: 0.1em solid #2b2a2a;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.cancel-button{
+    background-color: #2b2a2a;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9em;
+    border-radius: 0.2em;
+    border: 0.1em solid grey;
+    cursor: pointer;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.cancel-button:hover {
+    background-color: white;
+    color: #2b2a2a;
+    border: 0.1em solid grey;
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.dots-container {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    gap: 0.2rem;
+}
